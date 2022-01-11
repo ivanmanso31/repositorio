@@ -83,6 +83,9 @@ public class ahorcado {
 		for(int i=0;i<pal.length();i++) {
 			respuesta[i]='_';
 		}
+		for(int i=0;i<50;i++) {
+			System.out.println();
+		}
 		System.out.println("Jugador 2 te toca adivinar");
 		verArray(respuesta);
 		while(vidas>0) {
@@ -98,13 +101,15 @@ public class ahorcado {
 				
 			if(control) {
 				verArray(respuesta);
+				System.out.println();
 				dibujo(vidas);
 			}
 			else {
 				System.out.println("Mal");
 				vidas=vidas-1;
-				verArray(respuesta);
 				dibujo(vidas);
+				System.out.println();
+				verArray(respuesta);
 			}
 			if(esArray(palabra,respuesta)) {
 				System.out.println("Palabra acertada, vidas restantes: "+vidas);

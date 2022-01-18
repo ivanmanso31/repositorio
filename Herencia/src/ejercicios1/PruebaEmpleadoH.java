@@ -33,6 +33,21 @@ public class PruebaEmpleadoH {
 				System.out.println(datos);
 			}
 		}
+		Comercial c1=new Comercial("pepe");
+		Comercial c2=new Comercial("pepa",12345,"Barcelona");
+		System.out.println(c1.getCiudad());
+		System.out.println(c1);
+		System.out.println(c2);
+		System.out.println(c2.getCiudad());
+		c2.vendeProducto("reloj");
+		c2.sumarVenta(200.7);
+		c2.vendeProducto("telefono");
+		c2.sumarVenta(305.8);
+		String[] pv1=c2.getProductosVendidos();
+		for (String s : pv1) {
+			System.out.println(s);
+		}
+		
 	}
 
 }

@@ -5,6 +5,7 @@ public class Guitarra extends Instrumento {
 	public String cancion;
 	Guitarra(String cancion){
 		this.cancion=cancion;
+		this.tipo="guitarra";
 	}
 	
 	

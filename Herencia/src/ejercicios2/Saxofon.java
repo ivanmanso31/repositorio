@@ -5,6 +5,7 @@ public class Saxofon extends Instrumento {
 	public String cancion;
 	Saxofon(String cancion){
 		this.cancion=cancion;
+		this.tipo="saxofon";
 	}
 
 	public String getCancion() {

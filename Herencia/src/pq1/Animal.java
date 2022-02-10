@@ -1,5 +1,7 @@
 package pq1;
 
+import ejercicios2.Instrumento;
+
 public class Animal {
 
 	private String categoria;
@@ -37,6 +39,13 @@ public class Animal {
 	@Override
 	public String toString() {
 		return "Animal [categoria=" + categoria + ", patas=" + patas + "]";
+	}
+	public boolean equals(Object obj) {
+		Animal a=(Animal)obj;
+		if(a.categoria.equals(categoria) && a.patas==patas) {
+			return true;
+		}
+		return false;
 	}
 	
 }

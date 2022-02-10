@@ -5,6 +5,7 @@ public class Violin extends Instrumento{
 	public String cancion;
 	Violin(String cancion){
 		this.cancion=cancion;
+		this.tipo="violin";
 	}
 	
 	public String getCancion() {

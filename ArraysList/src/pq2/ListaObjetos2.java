@@ -30,9 +30,9 @@ public class ListaObjetos2 implements Lista2{
 			int max=0;
 			String salida="";
 			for (int i = 0; i < l2.length; i++) {
-				if(l2[i].getDato1()<max) {
+				if(l2[i].getDato1()>=max) {
 					max=l2[i].getDato1();
-					salida=l2[i].getDato2();
+					salida+=l2[i].getDato2()+" ";
 				}
 			}
 			return salida;

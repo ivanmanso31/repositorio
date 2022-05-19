@@ -1,0 +1,6 @@
+12 : impresora laser : 4 : 256.7
+11 : impresora tinta : 1 : 56.7
+32 : raton optico : 4 : 6.7
+1 : raton inalambrico : 1 : 6.7
+17 : disco duro 2G : 1 : 56.7
+2 : disco duro 4G : 2 : 56.7
